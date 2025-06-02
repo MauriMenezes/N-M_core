@@ -6,7 +6,6 @@ export class User {
     public password: string
   ) {}
 
-  // Example method to display user information
   displayInfo(): string {
     return `User ID: ${this.id}, Name: ${this.name}, Email: ${this.email}`;
   }
