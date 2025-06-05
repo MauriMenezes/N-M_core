@@ -1,5 +1,5 @@
 import { UserRepository } from "./infrastructure/repositories/UserRepositorie";
-import { UserServices } from "./infrastructure/services/UserServices";
+import { UserServices } from "./application/services/UserServices";
 import { userController } from "./api/controllers/UserController";
 
 
